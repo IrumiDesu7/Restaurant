@@ -12,22 +12,7 @@ function navbar() {
 
 function hero() {
   const heroContainer = document.createElement('div');
-  heroContainer.innerHTML = `<div class="left">
-    <div class="bigHeroText">
-      Eat, Drink, Hangout at <span class="logoHero">Simpresto</span>
-    </div>
-    <div class="littleHeroText">
-      Everyone love simplicity! So come and dine at Simpresto.
-    </div>
-    <div class="actions">
-      <button class="actionBtns"><a href="">Order</a></button>
-      <button class="actionBtns"><a href="">Our menus</a></button>
-      <button class="actionBtns"><a href="">Reservations</a></button>
-    </div>
-  </div>
-  <div class="right">
-    <img src="${Food}" alt="" />
-  </div>`;
+  heroContainer.innerHTML = `<div class="left"> <div class="bigHeroText"> Eat, Drink, Hangout at <span class="logoHero">Simpresto</span> </div><div class="littleHeroText"> Everyone love simplicity! So come and dine at Simpresto. </div><div class="actions"> <button class="actionBtns"><a href="">Order</a></button> <button class="actionBtns"><a href="">Our menus</a></button> <button class="actionBtns"><a href="">Reservations</a></button> </div></div><div class="right"> <img src="${Food}" alt=""/> </div>`;
   heroContainer.classList.add('hero');
 
   return heroContainer;
